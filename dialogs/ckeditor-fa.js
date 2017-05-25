@@ -9,7 +9,6 @@ function ckeditor_fa_click(el) {
   el.className += ' active'
 }
 (function ($) {
-  CKEDITOR.dtd.$removeEmpty['i'] = false;
   CKEDITOR.dialog.add('ckeditorFaDialog', function (editor) {
     function ckeditorFaGetIcons() {
       $.ajaxSetup({async: false});
